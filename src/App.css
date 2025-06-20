@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    width: 1300px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    border-bottom: 1px solid black;
+}
+header > nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header > nav > a {
+    font-size: 18px;
+
+    text-decoration: none;
+    color: black;   
+}
+
+header > button {
+    padding: 12px 20px;
+
+    border: none;
+    background-color: none;
+    border-radius: 10px;
+    font-size: 16px;    
+}
+.userWrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.userCard {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.createUserForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin: 30px;
+}
